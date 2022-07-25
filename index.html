@@ -1,6 +1,7 @@
 <html>
     <head>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="./style/background.css">
     </head>
     <body>
         <div class="message" style="opacity: 0.5;">
@@ -64,47 +65,3 @@ for(var i = 0; i < FIREFLIES; i++) {
     })
 };
 </script>
-<style>
-    body{
-  height: 100%;
-   background-image: url("./Asset/940718.jpg");
-
-  /* Center and scale the image nicely */
-  background-position: unset;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background: #111821;
-  
-  overflow: hidden;
-}
-
-* {
-  box-sizing: border-box;
-}
-.firefly {
-    width: 2px;
-    height: 2px;
-    background: yellow;
-    border-radius: 50%;
-    box-shadow: 0 0 0 5px rgba(154, 205, 50, 0.4);
-    overflow: hidden;
-}
-.message {
-    color: #fff;
-    font-size: 30px;
-    font-family: monospace;
-    display:flex;
-    text-align: center;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    position: relative;
-    top:50px;
-}
-
-.message .message__text
-{
-    color: #fff;
-    text-decoration: none;
-}
-</style>
