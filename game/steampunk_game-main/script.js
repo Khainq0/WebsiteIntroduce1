@@ -459,7 +459,7 @@ window.addEventListener('load', function(){
             this.score = 0;
             this.winningScore = 50;
             this.gameTime = 0;
-            this.timeLimit = 30000;
+            this.timeLimit = Infinity;
             this.speed = 1; 
             this.debug = false;
         }
